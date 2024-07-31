@@ -74,3 +74,4 @@ We mainly provide benchmarks for TCGA_IDH and UniToPath, since these two dataset
 | CLAM+DFP-Stain |  ViT_S_16 |UniToPath |70.5%|63.4%|[model](https://drive.google.com/file/d/1awBNjA0um3DOVdOvfPU8KSO1j40TM6KY/view?usp=drive_link) |[prompt](https://drive.google.com/file/d/1NJ0FVdxKpqmVkVAntkg6BTtGjinc2E6r/view?usp=drive_link)|[prototype](https://drive.google.com/file/d/1h92RKLoMcTdI3uWO4inb1m1iFtz-xRJt/view?usp=drive_link)|
 
 Reference
+====
