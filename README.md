@@ -60,17 +60,17 @@ We mainly provide benchmarks for TCGA_IDH and UniToPath, since these two dataset
 | CLAM |  ResNet50 |TCGA-IDH | 79.2% | 78.5% | [model](https://drive.google.com/file/d/1F4cKGE0q35l_iEfd2vk1E6WrQBMdoO_R/view?usp=drive_link) |--------------------|--------------------|
 | CLAM+DFP |  ResNet50 |TCGA-IDH  | 80.5% | 80.0% | [model](https://drive.google.com/file/d/1_QK2fdYR_Sw8FtaK2PA6j6092hvxXbVP/view?usp=drive_link) | [Prompt](https://drive.google.com/file/d/1lm7Kp9ma95kkXJ89VXYyhQhlbNnPztFl/view?usp=drive_link)|--------------------|
 | CLAM+DFP-Stain |  ResNet50 |TCGA-IDH | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/1ynP8uaaNu3Uk919_KV6NSYe1pZn5nvqe/view?usp=drive_link) |[Prompt](https://drive.google.com/file/d/1Ek9BrQXVKHhuO_NIR5VA4L3VCgS1PPwc/view?usp=drive_link)|[Prototype](https://drive.google.com/file/d/1RxLHPjuKK7xeu7mUuVstT8mhHk_fQpBU/view?usp=drive_link)|
-| CLAM |  ResNet50 |UniToPath |  |  | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ResNet50 |UniToPath  | 68.1% | 55.9% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
-| CLAM+DFP-Stain |  ResNet50 |UniToPath | 70.5%   | 59.0%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| CLAM |  ResNet50 |UniToPath |  |  | |--------------------|--------------------|
+| CLAM+DFP |  ResNet50 |UniToPath  | 68.1% | 55.9% | [model](https://drive.google.com/file/d/19_bcVjNwuYTNKCReJ-7Ep6zNXJcqmfCx/view?usp=drive_link) | [Prompt](https://drive.google.com/file/d/1W-_TOkDb5mtQv2Z8UjzLtN0zDhLbNPIv/view?usp=drive_link)|--------------------|
+| CLAM+DFP-Stain |  ResNet50 |UniToPath | 70.5%   | 59.0%| [model](https://drive.google.com/file/d/1cvw7YRVB5yEiiIO_9rAWxiM0vYEkCdSX/view?usp=drive_link) |[Prompt](https://drive.google.com/file/d/1AvbP_C9AkwCaqCJ-jm1oXfhN8w2hWeUD/view?usp=drive_link)|[Prototype](https://drive.google.com/file/d/1h92RKLoMcTdI3uWO4inb1m1iFtz-xRJt/view?usp=drive_link)|
 
 | MIL Classifier | Feature Extractor | Dataset | Test acc. | Test f1 | MIL | Prompt | Stain Prototype |
 |-------------------|-------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CLAM |  ViT_S_16 |TCGA-IDH | 79.1% | 78.5% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ViT_S_16 |TCGA-IDH  | 82.6% | 82.0% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
-| CLAM+DFP-Stain |  ViT_S_16 |TCGA-IDH |   | | [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
-| CLAM |  ViT_S_16 |UniToPath | 62.5% | 46.7% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ViT_S_16 |UniToPath  | 69.3% | 60.9% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
-| CLAM+DFP-Stain |  ViT_S_16 |UniToPath |   | | [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| CLAM |  ViT_S_16 |TCGA-IDH | 79.1% | 78.5% |[model](https://drive.google.com/file/d/1wVRJYmfsJ1GIP095KKgosUi6fzhEsQbS/view?usp=drive_link) |--------------------|--------------------|
+| CLAM+DFP |  ViT_S_16 |TCGA-IDH  | 82.6% | 82.0% | [model](https://drive.google.com/file/d/1qzDmbg6BYO0W3W4QP-xjRIWDzNxxCEI-/view?usp=drive_link) | [Prompt](https://drive.google.com/file/d/1QRmSmQTT_d_la7X8KnzZRSGrFLWQygyZ/view?usp=drive_link)|--------------------|
+| CLAM+DFP-Stain |  ViT_S_16 |TCGA-IDH |   | | |--------------------|[Prototype](https://drive.google.com/file/d/1RxLHPjuKK7xeu7mUuVstT8mhHk_fQpBU/view?usp=drive_link)|
+| CLAM |  ViT_S_16 |UniToPath | 62.5% | 46.7% |[model](https://drive.google.com/file/d/1-kGRIESZvFVkZNeJJKHTDWLOOIWK2eBH/view?usp=drive_link) |--------------------|--------------------|
+| CLAM+DFP |  ViT_S_16 |UniToPath  | 69.3% | 60.9% | [model](https://drive.google.com/file/d/1iJGznj6vwdl7pLFl0d9Vsg9mikveg6BQ/view?usp=drive_link) | [prompt](https://drive.google.com/file/d/1vhoHKxmg_V-9hs2dhlPPxckNVLT0w2na/view?usp=drive_link)|--------------------|
+| CLAM+DFP-Stain |  ViT_S_16 |UniToPath |70.5%|63.4%|[model](https://drive.google.com/file/d/1awBNjA0um3DOVdOvfPU8KSO1j40TM6KY/view?usp=drive_link) |[prompt](https://drive.google.com/file/d/1NJ0FVdxKpqmVkVAntkg6BTtGjinc2E6r/view?usp=drive_link)|[Prototype](https://drive.google.com/file/d/1h92RKLoMcTdI3uWO4inb1m1iFtz-xRJt/view?usp=drive_link)|
 
 Reference
