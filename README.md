@@ -57,11 +57,20 @@ We mainly provide benchmarks for TCGA_IDH and UniToPath, since these two dataset
 
 | MIL Classifier | Feature Extractor | Dataset | Test acc. | Test f1 | MIL | Prompt | Stain Prototype |
 |-------------------|-------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CLAM |  ResNet50 |TCGA-IDH | 87.1% | 79.0% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ResNet50 |TCGA-IDH  | 88.2% | 79.8% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
+| CLAM |  ResNet50 |TCGA-IDH | 79.2% | 78.5% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
+| CLAM+DFP |  ResNet50 |TCGA-IDH  | 80.5% | 80.0% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
 | CLAM+DFP-Stain |  ResNet50 |TCGA-IDH | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
-| CLAM |  ResNet50 |UniToPath | 87.1% | 79.0% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ResNet50 |UniToPath  | 88.2% | 79.8% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
-| CLAM+DFP-Stain |  ResNet50 |UniToPath | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| CLAM |  ResNet50 |UniToPath |  |  | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
+| CLAM+DFP |  ResNet50 |UniToPath  | 68.1% | 55.9% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
+| CLAM+DFP-Stain |  ResNet50 |UniToPath | 70.5%   | 59.0%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+
+| MIL Classifier | Feature Extractor | Dataset | Test acc. | Test f1 | MIL | Prompt | Stain Prototype |
+|-------------------|-------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| CLAM |  ViT_S_16 |TCGA-IDH | 79.1% | 78.5% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
+| CLAM+DFP |  ViT_S_16 |TCGA-IDH  | 82.6% | 82.0% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
+| CLAM+DFP-Stain |  ViT_S_16 |TCGA-IDH |   | | [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| CLAM |  ViT_S_16 |UniToPath | 62.5% | 46.7% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
+| CLAM+DFP |  ViT_S_16 |UniToPath  | 69.3% | 60.9% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
+| CLAM+DFP-Stain |  ViT_S_16 |UniToPath |   | | [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
 
 Reference
