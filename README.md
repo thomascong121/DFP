@@ -1,7 +1,16 @@
 # DFP
 Code for Deep Feature Prompt
 
-Training
+Datasets
+====
+You can access and download the data from the following links:
+**TCGA-IDH**: Access from [Google Drive](https://drive.google.com/drive/folders/1Hb_wZ8ZJAlg7RWHihOWfHaeISZ_-tnpt?usp=sharing, https://drive.google.com/drive/folders/1JC0ZCi2DT2h-LTvTpnkkCityjjdE54zz?usp=sharing, https://drive.google.com/drive/folders/1w5R_-SiMmyOeVb1eQwnBmQNyFLQhS91m?usp=sharing)
+**UniToPath**: Access from [IEEE-DataPort](https://ieee-dataport.org/open-access/unitopatho)
+**CAMELYON16**: Access from [Offical Site](https://camelyon16.grand-challenge.org/Data/)
+**BRIGHT**: Access from (BRIGHT Challenge)[https://www.synapse.org/Synapse:syn26480664/files/]
+
+
+
 ====
 For training the model, you may modify the `run.sh` file. Define `--data_folder` as the path to your dataset. We also provide our splits in the third section. To run, use `bash run.sh`
 
