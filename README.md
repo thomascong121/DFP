@@ -57,9 +57,9 @@ We mainly provide benchmarks for TCGA_IDH and UniToPath, since these two dataset
 
 | MIL Classifier | Feature Extractor | Dataset | Test acc. | Test f1 | MIL | Prompt | Stain Prototype |
 |-------------------|-------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CLAM |  ResNet50 |TCGA-IDH | 79.2% | 78.5% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
-| CLAM+DFP |  ResNet50 |TCGA-IDH  | 80.5% | 80.0% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
-| CLAM+DFP-Stain |  ResNet50 |TCGA-IDH | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| CLAM |  ResNet50 |TCGA-IDH | 79.2% | 78.5% | [model](https://drive.google.com/file/d/1F4cKGE0q35l_iEfd2vk1E6WrQBMdoO_R/view?usp=drive_link) |--------------------|--------------------|
+| CLAM+DFP |  ResNet50 |TCGA-IDH  | 80.5% | 80.0% | [model](https://drive.google.com/file/d/1_QK2fdYR_Sw8FtaK2PA6j6092hvxXbVP/view?usp=drive_link) | [Prompt](https://drive.google.com/file/d/1lm7Kp9ma95kkXJ89VXYyhQhlbNnPztFl/view?usp=drive_link)|--------------------|
+| CLAM+DFP-Stain |  ResNet50 |TCGA-IDH | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/1ynP8uaaNu3Uk919_KV6NSYe1pZn5nvqe/view?usp=drive_link) |[Prompt](https://drive.google.com/file/d/1Ek9BrQXVKHhuO_NIR5VA4L3VCgS1PPwc/view?usp=drive_link)|[Prototype](https://drive.google.com/file/d/1RxLHPjuKK7xeu7mUuVstT8mhHk_fQpBU/view?usp=drive_link)|
 | CLAM |  ResNet50 |UniToPath |  |  | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
 | CLAM+DFP |  ResNet50 |UniToPath  | 68.1% | 55.9% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
 | CLAM+DFP-Stain |  ResNet50 |UniToPath | 70.5%   | 59.0%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
