@@ -34,6 +34,18 @@ python3 extract_features_fp.py \
 --slide_ext .tif
 ```
 
+Stain Prototype Learning
+====
+```
+#python3 histo_ft_extract.py \
+#--image_size $SIZE \
+#--csv_path $CSV_PATH \
+#--feat_dir $FEATURES_DIRECTORY \
+#--slide_dir $DATA_DIRECTORY \
+```
+
+Based on the information (e.g., coordinates, h5 files, etc) provided in the csv file, running the above code will extract and store the patch-level colour histogram feature in FEATURES_DIRECTORY for slides in DATA_DIRECTORY. In detail, the code in **histo_ft_extract.py** adopts the codes from [Histogram loss](https://github.com/mahmoudnafifi/HistoGAN) from histogram feature extraction and uses agglomerative clustering algorithm to perform clustering.
+
 Training
 ====
 We provide the training scripts
