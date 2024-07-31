@@ -37,16 +37,16 @@ python3 extract_features_fp.py \
 Stain Prototype Learning
 ====
 ```
-#python3 histo_ft_extract.py \
-#--image_size $SIZE \
-#--csv_path $CSV_PATH \
-#--feat_dir $FEATURES_DIRECTORY \
-#--slide_dir $DATA_DIRECTORY \
+python3 histo_ft_extract.py \
+--image_size $SIZE \
+--csv_path $CSV_PATH \
+--feat_dir $FEATURES_DIRECTORY \
+--slide_dir $DATA_DIRECTORY \
 ```
 
 Based on the information (e.g., coordinates, h5 files, etc) provided in the csv file, running the above code will extract and store the patch-level colour histogram feature in FEATURES_DIRECTORY for slides in DATA_DIRECTORY. In detail, the code in **histo_ft_extract.py** adopts the codes from [Histogram loss](https://github.com/mahmoudnafifi/HistoGAN) from histogram feature extraction and uses agglomerative clustering algorithm to perform clustering.
 
-Training
+DFP/DFP-Stain Training
 ====
 We provide the training scripts
 
@@ -55,11 +55,11 @@ Trained Packages
 ====
 We mainly provide benchmarks for TCGA_IDH and UniToPath, since these two datasets have fixed training and testing setups. For CAMELYON16 and BRIGHT, there are no fixed benchmark due to the inconsistency in patch selection. 
 
-| method | Dataset | Test acc. | Test f1 | url |
-|-------------------|-------------------|---------------------|--------------------|--------------------|
-| AdUni | ISIC2018 | 87.1% | 79.0% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |
-| AdUni+upsample | ISIC2018 | 88.2% | 79.8% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | 
-| AdUni | APTOS2019 | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |
-| AdUni+upsample | APTOS2019 | 83.9% | 71.1% | [model](https://drive.google.com/file/d/1ceGo_NYSqmp4jdTWg-GWjnDNpTxnvdp7/view?usp=sharing) | 
+| method | Dataset | Test acc. | Test f1 | MIL | Prompt | Stain Prototype |
+|-------------------|-------------------|---------------------|--------------------|--------------------|--------------------|--------------------|
+| CLAM | TCGA-IDH | 87.1% | 79.0% | [model](https://drive.google.com/file/d/1XN-jyzkBCiYMGUYNHMj3hwusx6ROwh_G/view?usp=sharing) |--------------------|--------------------|
+| CLAM+DFP | TCGA-IDH  | 88.2% | 79.8% | [model](https://drive.google.com/file/d/1BjjxmuvIn23ZuLye52U0V3Xf3Q5rAbYX/view?usp=sharing) | --------------------|--------------------|
+| CLAM+DFP-Stain | TCGA-IDH | 83.3%  | 69.4%| [model](https://drive.google.com/file/d/13-mWo2_VHvU8CE5ObCQm7Y76m9VXLvus/view?usp=sharing) |--------------------|--------------------|
+| AdUni+upsample | APTOS2019 | 83.9% | 71.1% | [model](https://drive.google.com/file/d/1ceGo_NYSqmp4jdTWg-GWjnDNpTxnvdp7/view?usp=sharing) | --------------------|--------------------|
 
 Reference
